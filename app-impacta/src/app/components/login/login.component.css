@@ -1,0 +1,45 @@
+form{
+    max-width: 40%;
+    margin: auto;
+}
+
+.texto{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form > h1{
+    padding: 20px 0 20px 0;
+}
+
+.logo{
+    width: 300px;
+}
+
+hr{
+    color: #fff;
+}
+
+button{
+    margin-top: 30px;
+    background-color: #fc7d00;
+    border-color: #fc7d00;
+}
+
+button:hover{
+    background-color: #f7932f;
+    border-color: #f7932f;
+}
+
+@media only screen and (max-width: 1200px ){
+
+    
+    form{
+        max-width: 100%;
+        margin: auto;
+    }
+    
+    .logo{
+        width: 100%;
+    }   
+}

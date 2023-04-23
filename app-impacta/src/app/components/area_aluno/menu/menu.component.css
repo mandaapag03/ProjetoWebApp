@@ -1,0 +1,26 @@
+.custom-tooltip {
+    --bs-tooltip-bg: var(--bs-primary);
+}
+
+.btn-recursos{
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.icone-button-offcanvas{
+  display: none;
+}
+
+.legenda-offcanvas{
+  display: inline-block;
+}
+
+@media only screen and (max-width: 1200px){
+  .icone-button-offcanvas{
+    display: inline-block;
+  }
+  
+  .legenda-offcanvas{
+    display: none;
+  }
+}

@@ -12,7 +12,7 @@ COPY package.json package-lock.json /app/
 
 COPY . /usr/src/app/
 
-RUN npm config set registry https://repo.br.scania.com/repository/npm-registry
+# RUN npm config set registry https://repo.br.scania.com/repository/npm-registry
 
 RUN npm install --force
 

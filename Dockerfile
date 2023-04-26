@@ -20,7 +20,7 @@ RUN npm install --force
 COPY .  /app
 
 # RUN cd /app && npm run build
-RUN npm run build-prod
+# RUN npm run build-prod
 
 # STEP 2 build a small nginx image with static website
 CMD ["ng", "serve"]

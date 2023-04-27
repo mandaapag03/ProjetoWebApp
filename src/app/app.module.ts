@@ -8,6 +8,7 @@ import { PrincipalComponent } from './components/area_aluno/principal/principal.
 import { MenuComponent } from './components/area_aluno/menu/menu.component';
 import { MuralRecadosComponent } from './components/area_aluno/principal/mural-recados/mural-recados.component';
 import { PainelAlunoComponent } from './components/area_aluno/painel-aluno/painel-aluno.component';
+import { NotasFaltasComponent } from './components/notas-faltas/notas-faltas.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { PainelAlunoComponent } from './components/area_aluno/painel-aluno/paine
     PrincipalComponent,
     MenuComponent,
     MuralRecadosComponent,
-    PainelAlunoComponent
+    PainelAlunoComponent,
+    NotasFaltasComponent
   ],
   imports: [
     BrowserModule,

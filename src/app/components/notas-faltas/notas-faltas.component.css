@@ -1,0 +1,21 @@
+.tabela-notas-faltas{
+    max-width: 90%;
+    margin: auto;
+}
+
+.select-curso{
+    max-width: 30%;
+    margin: 0% 5% 1% 5%; 
+}
+
+@media only screen and (max-width: 1200px ) {
+    .tabela-notas-faltas{
+        max-width: 100%;
+        margin: 0;
+        font-size: 14px;
+    }
+    .select-curso{
+        max-width: 70%;
+        margin: 0% 5% 1% 5%; 
+    }
+}

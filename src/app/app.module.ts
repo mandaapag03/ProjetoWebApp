@@ -8,7 +8,9 @@ import { PrincipalComponent } from './components/area_aluno/principal/principal.
 import { MenuComponent } from './components/area_aluno/menu/menu.component';
 import { MuralRecadosComponent } from './components/area_aluno/principal/mural-recados/mural-recados.component';
 import { PainelAlunoComponent } from './components/area_aluno/painel-aluno/painel-aluno.component';
-import { NotasFaltasComponent } from './components/notas-faltas/notas-faltas.component';
+import { NotasFaltasComponent } from './components/notas-faltas-components/notas-faltas/notas-faltas.component';
+import { BoletimComponent } from './components/notas-faltas-components/boletim/boletim.component';
+import { BoletimDisciplinasComponent } from './components/notas-faltas-components/boletim-disciplinas/boletim-disciplinas.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { NotasFaltasComponent } from './components/notas-faltas/notas-faltas.com
     MenuComponent,
     MuralRecadosComponent,
     PainelAlunoComponent,
-    NotasFaltasComponent
+    NotasFaltasComponent,
+    BoletimComponent,
+    BoletimDisciplinasComponent
   ],
   imports: [
     BrowserModule,

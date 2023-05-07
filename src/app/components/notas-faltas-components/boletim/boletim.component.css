@@ -1,3 +1,13 @@
 .tabela-dados-aluno{
+    max-width: 90%;
     margin-bottom: 30px;
+}
+
+.tabela-frequência{
+    max-width: 60%;
+    margin-left: 2%;
+}
+
+.observacoes{
+    margin: 0 5% 0 5%;
 }

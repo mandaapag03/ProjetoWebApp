@@ -1,8 +1,12 @@
 .tabela-dados-disciplina{
     max-width: 95%;
-    margin-bottom: 30px;
+    margin: 30px 0 30px 0;
 }
 
 .botao-collapse{
+    margin: 10px 0 10px 0;
+}
+
+.descricao-collapse{
     margin: 10px 0 10px 0;
 }

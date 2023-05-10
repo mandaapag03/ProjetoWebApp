@@ -11,6 +11,7 @@ import { PainelAlunoComponent } from './components/area_aluno/painel-aluno/paine
 import { NotasFaltasComponent } from './components/notas-faltas-components/notas-faltas/notas-faltas.component';
 import { BoletimComponent } from './components/notas-faltas-components/boletim/boletim.component';
 import { BoletimDisciplinasComponent } from './components/notas-faltas-components/boletim-disciplinas/boletim-disciplinas.component';
+import { ExplicacaoNotaComponent } from './components/notas-faltas-components/explicacao-nota/explicacao-nota.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { BoletimDisciplinasComponent } from './components/notas-faltas-component
     PainelAlunoComponent,
     NotasFaltasComponent,
     BoletimComponent,
-    BoletimDisciplinasComponent
+    BoletimDisciplinasComponent,
+    ExplicacaoNotaComponent
   ],
   imports: [
     BrowserModule,

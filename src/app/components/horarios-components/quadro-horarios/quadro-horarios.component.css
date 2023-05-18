@@ -1,0 +1,14 @@
+#p-periodo{
+    font-weight: bold;
+}
+.descricao{
+    margin-left: 20px;
+}
+.lista-descricao{
+    list-style-type: none;
+    padding: 0;
+    margin: 3px;
+}
+.botao{
+    margin: 10px;
+}

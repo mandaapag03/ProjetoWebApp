@@ -12,6 +12,9 @@ import { NotasFaltasComponent } from './components/notas-faltas-components/notas
 import { BoletimComponent } from './components/notas-faltas-components/boletim/boletim.component';
 import { BoletimDisciplinasComponent } from './components/notas-faltas-components/boletim-disciplinas/boletim-disciplinas.component';
 import { ExplicacaoNotaComponent } from './components/notas-faltas-components/explicacao-nota/explicacao-nota.component';
+import { HorariosPageComponent } from './components/horarios-components/horarios-page/horarios-page.component';
+import { HorariosSemestreTableComponent } from './components/horarios-components/horarios-semestre-table/horarios-semestre-table.component';
+import { QuadroHorariosComponent } from './components/horarios-components/quadro-horarios/quadro-horarios.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +27,10 @@ import { ExplicacaoNotaComponent } from './components/notas-faltas-components/ex
     NotasFaltasComponent,
     BoletimComponent,
     BoletimDisciplinasComponent,
-    ExplicacaoNotaComponent
+    ExplicacaoNotaComponent,
+    HorariosPageComponent,
+    HorariosSemestreTableComponent,
+    QuadroHorariosComponent
   ],
   imports: [
     BrowserModule,

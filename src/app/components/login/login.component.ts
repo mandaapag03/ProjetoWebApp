@@ -15,4 +15,14 @@ export class LoginComponent implements AfterViewInit {
     this.elemento.nativeElement.ownerDocument.body.style.backgroundRepeat = 'no-repeat';
     this.elemento.nativeElement.ownerDocument.body.style.backgroundSize = '100%';
   }
+
+  verSenha(): void {
+    const inputPassword = document.getElementById("psw-password");
+    
+    if(inputPassword?.getAttribute("type") == "password"){
+      inputPassword?.setAttribute("type", "text")
+    } else{
+      inputPassword?.setAttribute("type", "password")
+    }
+  }
 } 

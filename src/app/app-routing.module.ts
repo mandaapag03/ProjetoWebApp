@@ -14,8 +14,7 @@ const routes: Routes = [
   { path: "notas-faltas", component: NotasFaltasComponent },
   { path: "boletim", component: BoletimComponent },
   { path: "horarios", component: HorariosPageComponent },
-  { path: "quadro-horarios", component: QuadroHorariosComponent },
-
+  { path: "quadro-horarios", component: QuadroHorariosComponent }
 ];
 
 @NgModule({
